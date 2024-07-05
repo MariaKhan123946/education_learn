@@ -1,0 +1,58 @@
+name: education_learn
+description: "A new Flutter project."
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Version and build number
+version: 1.0.0+1
+
+# Environment settings
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies for the project
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.0
+  cached_network_image: ^3.2.0
+  connectivity_plus: ^2.3.0
+  flutter_bloc: ^8.0.0
+  firebase_core: ^2.6.0
+  cloud_firestore: ^4.2.0
+  firebase_auth: ^4.2.0
+  dots_indicator: ^2.0.0
+  equatable: ^2.0.5
+  country_code_picker: ^2.0.2
+  flag: ^4.0.0
+  photo_view: ^0.14.0
+  url_launcher: ^6.0.20
+  meta: ^1.7.0
+  flutter_stripe: ^4.1.0
+  dio: ^5.1.0
+  flutter_dotenv: ^5.0.2
+
+# Dev dependencies for testing and linting
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# Flutter-specific configurations
+flutter:
+  uses-material-design: true
+
+  # Asset directories
+  assets:
+    - assets/png/
+    - assets/svg/
+
+  # Custom fonts
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 500
